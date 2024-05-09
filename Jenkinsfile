@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        docker { image 'lochnair/octeon-buildenv:latest' }
+        docker { image 'lochnair/octeon-buildenv:3' }
     }
 
     stages {
