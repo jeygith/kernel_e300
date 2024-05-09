@@ -13,7 +13,6 @@ pipeline {
 
         stage('Install dependencies') {
             steps {
-                sh 'su-exec root apt-get update'
                 sh 'su-exec root apt-get -y install bc bison flex'
             }
         }
